@@ -30,12 +30,13 @@
 
 2. **Make it Executable:**
    ```bash
+   cd find_file.sh
    chmod +x install_ff.sh
    ```
 
-3. **Run the Script:**
+3. **Run the 'install_ff.sh' Script:**
    ```bash
-   ff.sh
+   ./install_ff.sh
    ```
 
 ## Examples
