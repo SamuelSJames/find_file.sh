@@ -57,7 +57,7 @@
   file_name -mtime -7
   ```
 - Then you will be prompt to choose an actions:
-  '''plaintext
+  ```plaintext
   Select an action:
   1. Display file(s)
   2. Edit file(s)
