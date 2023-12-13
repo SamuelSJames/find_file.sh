@@ -54,7 +54,7 @@
    '''
 - **Search for a File Modified in the Last 35 Days:**
   ```bash
-  file_name -mtime -7
+  file_name -mtime -35
   ```
 - Then you will be prompt to choose an actions:
   ```plaintext
@@ -67,7 +67,7 @@
   ```
 - **Select Display files(s):**
   ```bash
- 1
+  1
   ```
 > **Note: Some files may require elevated permissions in order to view or modify them**
 
