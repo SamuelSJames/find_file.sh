@@ -25,12 +25,12 @@
 
 1. **Download Script:**
    ```bash
-   wget https://path-to-script/find_file.sh
+   git clone https://github.com/SnS-Net/find_file.sh.git
    ```
 
 2. **Make it Executable:**
    ```bash
-   chmod +x find_file.sh
+   chmod +x install_ff.sh
    ```
 
 3. **Run the Script:**
@@ -44,10 +44,13 @@
   ```bash
   ff.sh
   ```
-
+- The script will prompt:
+  ```plaintext
+  Enter the file name:
+  ```
 - **Search for a File Modified in the Last 7 Days:**
   ```bash
-  ff.sh -mtime -7
+  file_name -mtime -7
   ```
 
 - **Modify Files with a Custom Command:**
