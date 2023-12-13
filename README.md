@@ -51,7 +51,7 @@
 - After you enter file_name it will prompt for additional options:
   ```plaintext
      Enter additional options for find command (e.g., -type f, -mtime -1): 
-   '''
+  '''
 - **Search for a File Modified in the Last 35 Days:**
   ```bash
   file_name -mtime -35
