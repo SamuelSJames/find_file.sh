@@ -48,15 +48,28 @@
   ```plaintext
   Enter the file name:
   ```
-- **Search for a File Modified in the Last 7 Days:**
+- After you enter file_name it will prompt for additional options:
+  ```plaintext
+     Enter additional options for find command (e.g., -type f, -mtime -1): 
+   '''
+- **Search for a File Modified in the Last 35 Days:**
   ```bash
   file_name -mtime -7
   ```
-
-- **Modify Files with a Custom Command:**
-  ```bash
-  ff.sh -name "*.txt" -exec sed -i 's/old/new/g' {} \;
+- Then you will be prompt to choose an actions:
+  '''plaintext
+  Select an action:
+  1. Display file(s)
+  2. Edit file(s)
+  3. Delete file(s)
+  4. Modify file(s)
+  Enter the number of your choice: 
   ```
+- **Select Display files(s):**
+  ```bash
+ 1
+  ```
+> **Note: Some files may require elevated permissions in order to view or modify them**
 
 ## License
 
